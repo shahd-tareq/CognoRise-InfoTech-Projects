@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background:url("photo2.jpg") no-repeat;
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: rgb(255, 180, 127);
+  }
+
+
+.container {
+    background: rgb(11, 0, 0);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px #550404;
+    outline-color:rgb(237, 7, 225);font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    top: -70px;
+    width: 505px;
+    max-width: 100%;
+    margin: 0 auto;
+    color: rgb(255, 180, 127);
+    font-style: oblique;
+  transform: translateX(-5px);
+
+}
+  
+
+
+h1 {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input {
+    width: calc(100% - 10px);
+    padding: 8px;
+    margin-bottom: 15px;
+    outline-color:rgb(238, 11, 11);
+    font-style: oblique;
+    border-radius: 5px;
+}
+
+button {
+    background: #53030e;
+    color: rgb(253, 247, 247);
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-style: oblique;
+    margin-top: 10px;
+        margin-right: 10px;
+      }
+      #clear-button {
+        margin-left: 7px;
+      }
+      
+
+button:hover {
+    background: #c57770;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.5em;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    
+}
