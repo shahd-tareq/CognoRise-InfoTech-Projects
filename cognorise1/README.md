@@ -1,2 +1,2 @@
 ﻿# CognoRise-InfoTech-Projects
-![Uploading Screenshot 2024-09-28 202843.png…]()
+
